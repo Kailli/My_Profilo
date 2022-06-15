@@ -14,7 +14,6 @@ html{
     line-height: 1.15;
 }
 body{
-    margin:0;
     font-family: "Roboto", sans-serif;
     font-weight:400;
     font-size: 1rem;
@@ -65,7 +64,6 @@ body{
 }
 
 /* navbar section */
-
 a{
     color:var(--gray);
     text-decoration: none;
@@ -75,9 +73,9 @@ a:hover{
     color:var(--light-purple);
     text-decoration: underline;
 }
-.navbar-light{
+/* .navbar-light{
     display: none;
-}
+} */
 .navbar-light .navbar-nav .nav-link{
     padding:25px 10px;
     color:var(--gray);

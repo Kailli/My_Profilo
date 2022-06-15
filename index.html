@@ -22,37 +22,41 @@
 <body>
 
 
+       
             <!-- navbar section -->
-        <div class="navbar d-flex justify-content-between fixed-top navbar-expand-lg navbar-light bg-nav shadow-sm py-3 py-lg-0 px-lg-5 m-0">
+            <nav class="navbar sticky-top sticky-md-top navbar-expand-lg navbar-light bg-nav">
             
-            <div>
-                <a href="index.html" class="navbar-brand ml-lg-3">
-                    <h1 class="m-0 display-5">
-                        My <span class="purple">Profilo</span>
-                    </h1>
-                </a>
+            <div class="container-fluid">
+                <div>
+                    <a href="index.html" class="navbar-brand ml-lg-3">
+                        <h1 class="m-0 display-5">
+                            My <span class="purple">Profilo</span>
+                        </h1>
+                    </a>
+                </div>
+                <div>
+                    <!-- button for responsive -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+                    <div class="navbar-nav m-auto py-0">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#skill" class="nav-item nav-link">Skill</a>
+                        <a href="#profilo" class="nav-item nav-link">Profilo</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div> 
+                </div>
+                </div>
+                <!-- dark mood
+                <button class="btn btn-dark p-1 me-3 rounded-circle" id="dark"><i class="fas fa-moon    "></i></button> -->
             </div>
-            <div>
-                <!-- button for responsive -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-                <div class="navbar-nav m-auto py-0">
-                    <a href="#home" class="nav-item nav-link active">Home</a>
-                    <a href="#about" class="nav-item nav-link">About</a>
-                    <a href="#skill" class="nav-item nav-link">Skill</a>
-                    <a href="#profilo" class="nav-item nav-link">Profilo</a>
-                    <a href="#contact" class="nav-item nav-link">Contact</a>
-                </div> 
-            </div>
-            </div>
-            <!-- dark mood
-            <button class="btn btn-dark p-1 me-3 rounded-circle" id="dark"><i class="fas fa-moon    "></i></button> -->
-            
+            </nav>
         <!-- navbar section end -->
         
     
+        
         <!-- header section -->
         <div class="container-fluid d-flex mb-5 py-5" id="home" style="min-height:100vh;">
             <div class="container">
