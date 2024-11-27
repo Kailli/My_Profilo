@@ -2,9 +2,11 @@
 
 /* basic code */
 :root{
-    --light-purple:#b283fe;
-    --gray:#6c757d;
-    --purple:#a203a2;
+    --light-purple:#ad9fff;
+    --gray:#dcdcdc;
+    --purple:#e91e63;
+    --dark-bg:#1e1e2e;
+    --dark-card-bg:#2e2e3e;
 }
 
 *{
@@ -18,26 +20,30 @@ body{
     font-weight:400;
     font-size: 1rem;
     line-height: 1.5;
-    color:var(--gray);
-    text-align:center;
-    background:#dac3ff;
+    color: var(--gray);
+    text-align: center;
+    background: var(--dark-bg);
 }
 .purple{
-    color:#a203a2;
+    color: var(--purple);
+}
+.img-profile{
+    weight:500px;
+    height:650px;
 }
 .gray{
-    color:#6c757d;
+    color: var(--gray);
 }
 .light-purple{
-    color:#b283fe;
+    color: var(--light-purple);
 }
 .bg-nav{
-    background:#dac3ff;
+    background: var(--dark-bg);
 }
 /* header section */
 #home{
-    background: #c8a5ff;
-    box-shadow: 0px 15px 5px gray;
+    background: var(--dark-card-bg);
+    box-shadow: 0px 15px 5px rgba(0, 0, 0, 0.8);
 }
 .about-img{
     margin-left:-100px;
@@ -48,16 +54,16 @@ body{
     border-radius: 100px;
 }
 .btn-blue{
-    border:2.4px solid #6c757d;
-    color:#6c757d;
-    background: #dac3ff;
+    border:2.4px solid var(--gray);
+    color: var(--gray);
+    background: var(--dark-bg);
 }
 .hero-text{
     margin-top: 150px;
 }
 .typed-cursor{
     font-size:45px;
-    color:#fff;
+    color: var(--light-purple);
 }
 .position-absolute{
     font-weight: 700;
@@ -65,12 +71,12 @@ body{
 
 /* navbar section */
 a{
-    color:var(--gray);
+    color: var(--gray);
     text-decoration: none;
     background: transparent;
 }
 a:hover{
-    color:var(--light-purple);
+    color: var(--light-purple);
     text-decoration: underline;
 }
 /* .navbar-light{
@@ -78,21 +84,21 @@ a:hover{
 } */
 .navbar-light .navbar-nav .nav-link{
     padding:25px 10px;
-    color:var(--gray);
+    color: var(--gray);
     font-weight: 500;
-    outline:none;
+    outline: none;
 }
-.navbar-light .navbar-nav .nav-link:hover, 
+.navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active{
-    color:var(--light-purple);
+    color: var(--light-purple);
 }
 .card{
     margin-bottom: 15px;
-    background: #c8a5ff;
-    box-shadow: 5px 10px 0px var(--gray);
+    background: var(--dark-card-bg);
+    box-shadow: 5px 10px 0px rgba(0, 0, 0, 0.8);
 }
 .card:hover{
-    box-shadow: 2px 5px 0px rgb(188, 188, 188);
+    box-shadow: 2px 5px 0px rgba(50, 50, 50, 0.6);
     animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
@@ -102,16 +108,16 @@ a:hover{
     10%, 90% {
       transform: translate3d(-1px, 0, 0);
     }
-    
+
     20%, 80% {
       transform: translate3d(2px, 0, 0);
     }
-  
+
     30%, 50%, 70% {
       transform: translate3d(-4px, 0, 0);
     }
-  
+
     40%, 60% {
       transform: translate3d(4px, 0, 0);
     }
-  }
+}
